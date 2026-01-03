@@ -61,6 +61,18 @@ def encode_inputs(data):
     }
 
 
+@app.route('/')
+def home():
+    """Root endpoint for status check"""
+    return jsonify({
+        'message': 'Cardio Risk Prediction API is running!',
+        'endpoints': {
+            'predict': '/api/predict (POST)',
+            'health': '/api/health (GET)'
+        }
+    })
+
+
 @app.route('/api/predict', methods=['POST'])
 def predict():
     """Handle prediction requests"""
