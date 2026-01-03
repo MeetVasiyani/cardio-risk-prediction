@@ -2,6 +2,9 @@
 
 An AI-powered web application that predicts the risk of cardiovascular disease based on clinical and lifestyle data. The project uses a Gradient Boosting model for predictions and features a modern, responsive React frontend.
 
+**🌐 Live Demo:** [CardioRisk Predictor](https://cardio-risk-prediction-1-7itm.onrender.com/predict)
+
+
 ## 🚀 Features
 
 - **Risk Assessment**: Real-time prediction based on 11 health parameters.
