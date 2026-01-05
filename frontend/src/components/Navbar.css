@@ -93,6 +93,33 @@
     border-radius: 2px;
 }
 
+.theme-toggle-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid var(--glass-border);
+    border-radius: 50%;
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: all var(--transition-base);
+    margin-left: 16px;
+    /* Add some spacing */
+}
+
+.theme-toggle-btn:hover {
+    background: var(--glass-bg);
+    transform: rotate(15deg);
+    border-color: var(--color-primary);
+}
+
+.theme-toggle-btn svg {
+    width: 20px;
+    height: 20px;
+}
+
 .mobile-menu-btn {
     display: none;
     flex-direction: column;
